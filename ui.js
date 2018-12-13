@@ -9,7 +9,7 @@ class UI {
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-fluid mb-2" src="${user.avatar_url}">
-			             <span class="list-group-item">${user.bio}
+			<span class="list-group-item">${user.bio}
                         <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mt-4">View Profile</a>
                     </div>
                     <div class="col-md-9">
@@ -44,7 +44,7 @@ class UI {
                 <div class="col-md-6">
                 <a title="${repo.description}" href="${repo.html_url}" target="_blank">${repo.name}</a>
                 </div>
-                <div class="col-md-6">
+                <div id="repos" class="col-md-6">
                 <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
                 <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
                 <span class="badge badge-success">Forks: ${repo.forms_count}</span>
